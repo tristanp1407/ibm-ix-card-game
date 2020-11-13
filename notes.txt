@@ -1,0 +1,5 @@
+rendering cards help - https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript
+
+sort cards by suit: Clubs, Spades, Hearts, Diamonds - and value with Ace high 
+
+tested code 

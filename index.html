@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>iX Card Challenge</title>
+        <script type="text/javascript" src="helper.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="controls">
+                <button class="btn" onclick="shuffleDeck()">Shuffle Cards</button>
+                <input  class="btn input" placeholder="Number..."type="text" id="input" min="1" max="52">
+                <button class="btn" onclick="drawCards()">Draw Cards</button>
+                <button class="btn" onclick="sortCards()">Sort Cards</button>
+                <button class="btn" onclick="resetCards()">Reset Cards</button>
+            </div> 
+        </div>
+
+        <div id="cards" class="cards"></div>
+    </body>
+</html>
